@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Sun className="text-orange-600" size={32} />
-            <span className="font-bold text-xl text-gray-800">SolarPanels</span>
+            <span className="font-bold text-xl text-gray-800">TESOCOL</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,11 +40,6 @@ export default function Navbar() {
               Contacto
             </Link>
           </nav>
-
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button className="bg-orange-600 hover:bg-orange-700 text-white">Solicitar Presupuesto</Button>
-          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -101,7 +96,6 @@ export default function Navbar() {
                 className="bg-orange-600 hover:bg-orange-700 text-white mt-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Solicitar Presupuesto
               </Button>
             </nav>
           </div>

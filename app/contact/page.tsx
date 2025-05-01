@@ -35,7 +35,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800 mb-1">Dirección</h3>
-                    <p className="text-gray-600">Calle Principal 123, 28001 Madrid, España</p>
+                    <p className="text-gray-600">Barrio las mercedes </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -44,7 +44,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800 mb-1">Teléfono</h3>
-                    <p className="text-gray-600">+34 91 123 45 67</p>
+                    <p className="text-gray-600">3234566789</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -53,7 +53,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">info@tuempresasolar.com</p>
+                    <p className="text-gray-600">info@tesocol.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -62,32 +62,10 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800 mb-1">Horario</h3>
-                    <p className="text-gray-600">Lunes a Viernes: 9:00 - 18:00</p>
-                    <p className="text-gray-600">Sábados: 10:00 - 14:00</p>
+                    <p className="text-gray-600">Lunes a Viernes: 9:00 AM - 2:00 PM</p>
+                    <p className="text-gray-600">Sábados: 10:00 AM- 2:00 PM</p>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="bg-white rounded-xl shadow-lg p-8">
-                <h3 className="text-2xl font-bold mb-6 text-gray-800">Envíanos un mensaje</h3>
-                <ContactForm />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center">Nuestra ubicación</h2>
-          <div className="bg-white rounded-xl shadow-md overflow-hidden h-96">
-            {/* Aquí iría un mapa real, pero usamos un placeholder */}
-            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin size={48} className="text-orange-600 mx-auto mb-4" />
-                <p className="text-gray-600">Mapa de ubicación</p>
               </div>
             </div>
           </div>
@@ -103,7 +81,7 @@ export default function ContactPage() {
               {
                 question: "¿Cuánto cuesta instalar paneles solares?",
                 answer:
-                  "El coste de instalación varía según el tamaño del sistema, tipo de paneles y complejidad de la instalación. Ofrecemos presupuestos personalizados gratuitos para cada proyecto.",
+                  "El coste de instalación varía según el tamaño del sistema, tipo de paneles y complejidad de la instalación. Ofrecemos presupuestos personalizados para cada proyecto.",
               },
               {
                 question: "¿Cuánto tiempo dura la instalación?",

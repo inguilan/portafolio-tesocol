@@ -109,7 +109,6 @@ export default function ServicesPage() {
                   <span className="text-gray-600">Sistemas con baterías para maximizar el autoconsumo</span>
                 </li>
               </ul>
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white">Ver opciones residenciales</Button>
             </div>
             <div className="md:w-1/2">
               <img
@@ -158,7 +157,6 @@ export default function ServicesPage() {
                   </span>
                 </li>
               </ul>
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white">Ver opciones comerciales</Button>
             </div>
             <div className="md:w-1/2">
               <img

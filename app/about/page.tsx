@@ -24,18 +24,13 @@ export default function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6 text-gray-800">Nuestra Historia</h2>
               <p className="text-gray-600 mb-4">
-                Fundada en 2010, nuestra empresa nació con la visión de transformar el sector energético en España,
-                promoviendo el uso de energías renovables y contribuyendo a un futuro más sostenible.
+                breve description
               </p>
               <p className="text-gray-600 mb-4">
-                Lo que comenzó como un pequeño equipo de tres ingenieros apasionados por la energía solar, ha crecido
-                hasta convertirse en una empresa líder en el sector, con más de 50 profesionales y cientos de proyectos
-                completados con éxito.
+                
               </p>
               <p className="text-gray-600">
-                A lo largo de estos años, hemos evolucionado constantemente, incorporando las últimas tecnologías y
-                mejorando nuestros procesos para ofrecer soluciones cada vez más eficientes y adaptadas a las
-                necesidades de nuestros clientes.
+                
               </p>
             </div>
             <div className="md:w-1/2">

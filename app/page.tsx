@@ -119,13 +119,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="Instalación Residencial"
-              location="Madrid, España"
+              location="Tulua, Valle"
               image="/placeholder.svg?height=300&width=400"
               description="Sistema de 5kW para una vivienda familiar"
             />
             <ProjectCard
               title="Complejo Industrial"
-              location="Barcelona, España"
+              location="Cali, Vlle"
               image="/placeholder.svg?height=300&width=400"
               description="Instalación de 50kW para una fábrica"
             />
@@ -144,23 +144,6 @@ export default function Home() {
               Ver todos los proyectos <ArrowRight size={18} />
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-orange-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">¿Listo para cambiar a energía solar?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contáctanos hoy mismo para una consulta gratuita y descubre cómo podemos ayudarte a ahorrar en tu factura
-            eléctrica.
-          </p>
-          <Link
-            href="/contact"
-            className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 rounded-lg font-medium inline-flex items-center gap-2 transition-colors text-lg"
-          >
-            Solicitar presupuesto <Phone size={20} />
-          </Link>
         </div>
       </section>
 

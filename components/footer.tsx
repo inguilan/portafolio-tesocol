@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <Sun className="text-orange-500" size={32} />
-              <span className="font-bold text-xl">SolarPanels</span>
+              <span className="font-bold text-xl">TESOCOL</span>
             </div>
             <p className="text-gray-400 mb-6">
               Empresa líder en instalación de paneles solares, comprometida con la transición hacia energías renovables.
@@ -101,15 +101,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-orange-500 mt-1" />
-                <span className="text-gray-400">Calle Principal 123, 28001 Madrid, España</span>
+                <span className="text-gray-400">Barrio las Mercedes</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={20} className="text-orange-500 mt-1" />
-                <span className="text-gray-400">+34 91 123 45 67</span>
+                <span className="text-gray-400">3234567890</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-orange-500 mt-1" />
-                <span className="text-gray-400">info@tuempresasolar.com</span>
+                <span className="text-gray-400">info@tesocol.com</span>
               </li>
             </ul>
           </div>
@@ -117,7 +117,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} SolarPanels. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} TESOCOL. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
