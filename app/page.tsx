@@ -1,8 +1,8 @@
-import Link from "next/link"
-import { ArrowRight, Sun, Users, CheckCircle, Phone } from "lucide-react"
-import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import Navbar from "@/components/navbar"
 import ProjectCard from "@/components/project-card"
+import { ArrowRight, CheckCircle, Sun, Users } from "lucide-react"
+import Link from "next/link"
 
 export default function Home() {
   return (

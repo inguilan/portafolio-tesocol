@@ -1,7 +1,7 @@
-import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import { Sun, BarChart, Wrench, FileCheck, Zap, PanelTop } from "lucide-react"
+import Navbar from "@/components/navbar"
 import { Button } from "@/components/ui/button"
+import { BarChart, FileCheck, PanelTop, Sun, Wrench, Zap } from "lucide-react"
 import Link from "next/link"
 
 export default function ServicesPage() {
@@ -112,7 +112,7 @@ export default function ServicesPage() {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/485752154_18131686630404904_6510772137468669921_n.png"
                 alt="Instalación residencial"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
