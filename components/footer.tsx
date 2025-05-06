@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Sun } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="text-left">
             <div className="flex items-center gap-2 mb-6">
-              <Sun className="text-orange-500" size={32} />
+              <img src="/logotes.jpg" alt="TESOCOL Logo" className="h-8" />
               <span className="font-bold text-xl">TESOCOL</span>
             </div>
             <p className="text-gray-400 mb-6">
