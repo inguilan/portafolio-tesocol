@@ -119,20 +119,20 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="Instalación Residencial"
-              location="Tulua, Valle"
-              image="/placeholder.svg?height=300&width=400"
+              location="Palmira, Valle"
+              image="/palmites.jpg"
               description="Sistema de 5kW para una vivienda familiar"
             />
             <ProjectCard
               title="Complejo Industrial"
-              location="Cali, Vlle"
-              image="/placeholder.svg?height=300&width=400"
+              location="Cali, Valle"
+              image="/caliteso.jpg"
               description="Instalación de 50kW para una fábrica"
             />
             <ProjectCard
-              title="Centro Comercial"
-              location="Valencia, España"
-              image="/placeholder.svg?height=300&width=400"
+              title="Instalación Residencial"
+              location="Cerrito, Valle"
+              image="/cerrito.jpg"
               description="Sistema de 100kW con seguimiento solar"
             />
           </div>

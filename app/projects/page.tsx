@@ -181,18 +181,7 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-orange-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">¿Quieres ser nuestro próximo caso de éxito?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contáctanos hoy mismo para una consulta gratuita y descubre cómo podemos ayudarte con tu proyecto solar.
-          </p>
-          <Button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-6 h-auto text-lg">
-            Solicitar presupuesto gratuito
-          </Button>
-        </div>
-      </section>
+      
 
       <Footer />
     </div>
