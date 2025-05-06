@@ -76,18 +76,18 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div className="text-center">
+          <div className="text-left">
             <h3 className="text-lg font-bold mb-6">Contacto</h3>
             <ul className="space-y-4">
-              <li className="flex justify-center items-center gap-3">
+              <li className="flex items-center gap-3">
                 <MapPin size={20} className="text-orange-500" />
                 <span className="text-gray-400">Barrio las Mercedes</span>
               </li>
-              <li className="flex justify-center items-center gap-3">
+              <li className="flex items-center gap-3">
                 <Phone size={20} className="text-orange-500" />
                 <span className="text-gray-400">3234567890</span>
               </li>
-              <li className="flex justify-center items-center gap-3">
+              <li className="flex items-center gap-3">
                 <Mail size={20} className="text-orange-500" />
                 <span className="text-gray-400">info@tesocol.com</span>
               </li>

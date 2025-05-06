@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Facebook, Instagram, Linkedin, Menu, Sun, X } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Menu, X } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -42,7 +42,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-              <Sun className="text-orange-600" size={32} />
+              <img src="/logotes.jpg" alt="TESOCOL Logo" className="h-8" />
               <span className="font-bold text-xl text-gray-800">TESOCOL</span>
             </Link>
 
