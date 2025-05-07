@@ -17,32 +17,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Story Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-1/2">
-              <h2 className="text-3xl font-bold mb-6 text-gray-800">Nuestra Historia</h2>
-              <p className="text-gray-600 mb-4">
-                breve description
-              </p>
-              <p className="text-gray-600 mb-4">
-                
-              </p>
-              <p className="text-gray-600">
-                
-              </p>
-            </div>
-            <div className="md:w-1/2">
-              <img
-                src="/placeholder.svg?height=400&width=600"
-                alt="Historia de la empresa"
-                className="rounded-xl shadow-lg w-full h-auto"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       {/* Mission and Vision */}
       <section className="py-20 bg-gray-50">

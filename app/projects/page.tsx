@@ -9,48 +9,48 @@ export default function ProjectsPage() {
     {
       id: 1,
       title: "Instalación Residencial",
-      location: "Madrid, España",
-      image: "/placeholder.svg?height=300&width=400",
+      location: "Barrancabermeja,santander",
+      image: "/291123-web-tesocol-residencial_barrancabermeja_1-1536x864.jpg",
       description: "Sistema de 5kW para una vivienda familiar",
       category: "Residencial",
     },
     {
       id: 2,
       title: "Complejo Industrial",
-      location: "Barcelona, España",
-      image: "/placeholder.svg?height=300&width=400",
+      location: "Bogota, Cundinamarca",
+      image: "/161123-web-tesocol-gaiarec_bogota_1-1536x864.jpg",
       description: "Instalación de 50kW para una fábrica",
       category: "Industrial",
     },
     {
       id: 3,
-      title: "Centro Comercial",
-      location: "Valencia, España",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Complejo Industrial",
+      location: "El carmelo, Cali",
+      image: "/270923-web-tesocol-distriabonos1-1536x864.jpg",
       description: "Sistema de 100kW con seguimiento solar",
-      category: "Comercial",
+      category: "Industrial",
     },
     {
       id: 4,
-      title: "Granja Solar",
-      location: "Sevilla, España",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Sistema de Bombeo Solar",
+      location: "Palmira ,Valle",
+      image: "/portadaulti.jpg",
       description: "Instalación de 200kW para una granja",
       category: "Agrícola",
     },
     {
       id: 5,
-      title: "Edificio de Oficinas",
-      location: "Bilbao, España",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Sistema de fotovoltaico",
+      location: "T-shirt, Cali",
+      image: "/020224-web-tesocol-t-shirt_1-1536x864.jpg",
       description: "Sistema de 75kW para un edificio corporativo",
-      category: "Comercial",
+      category: "Industrial",
     },
     {
       id: 6,
-      title: "Comunidad de Vecinos",
-      location: "Zaragoza, España",
-      image: "/placeholder.svg?height=300&width=400",
+      title: "Muebles El Paisa",
+      location: "Turín, Valle",
+      image: "/111023-web-tesocol-muebles_el_paisa1-1536x864.jpg",
       description: "Instalación comunitaria de 30kW",
       category: "Residencial",
     },
@@ -79,21 +79,21 @@ export default function ProjectsPage() {
               <span className="font-medium text-gray-800">Filtrar por:</span>
             </div>
             <div className="flex flex-wrap gap-2">
-              <Button variant="outline" className="bg-orange-600 text-white hover:bg-orange-700">
+              <button className="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700">
                 Todos
-              </Button>
-              <Button variant="outline" className="text-gray-700 hover:bg-orange-100 hover:text-orange-700">
+              </button>
+              <button className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">
                 Residencial
-              </Button>
-              <Button variant="outline" className="text-gray-700 hover:bg-orange-100 hover:text-orange-700">
+              </button>
+              <button className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">
                 Comercial
-              </Button>
-              <Button variant="outline" className="text-gray-700 hover:bg-orange-100 hover:text-orange-700">
+              </button>
+              <button className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">
                 Industrial
-              </Button>
-              <Button variant="outline" className="text-gray-700 hover:bg-orange-100 hover:text-orange-700">
+              </button>
+              <button className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300">
                 Agrícola
-              </Button>
+              </button>
             </div>
           </div>
         </div>
@@ -180,8 +180,6 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
-
-      
 
       <Footer />
     </div>

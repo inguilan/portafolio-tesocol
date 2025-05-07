@@ -15,21 +15,21 @@ export default function Navbar() {
   return (
     <>
       {/* Barra superior */}
-      <div className="bg-black text-white text-sm">
-        <div className="container mx-auto px-4 flex flex-wrap justify-between items-center h-auto py-2 md:py-0">
-          <div className="flex flex-wrap items-center gap-2 text-center md:text-left">
+      <div className="bg-black text-white text-base">
+        <div className="container mx-auto px-4 flex flex-wrap justify-between items-center h-auto py-3 md:py-2">
+          <div className="flex flex-wrap items-center gap-4 text-center md:text-left">
             <span>Bienvenidos a TESOCOL, Tecnología Solar de Colombia</span>
             <span>📞 +57 123 456 7890</span>
             <span>📧 contacto@tesocol.com</span>
           </div>
-          <div className="flex items-center gap-2 mt-2 md:mt-0">
+          <div className="flex items-center gap-4 mt-2 md:mt-0">
             <a
               href="https://www.facebook.com/tesocol.co/?locale=es_LA"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-orange-600"
             >
-              <Facebook size={16} />
+              <Facebook size={20} />
             </a>
             <a
               href="https://www.linkedin.com/company/tesocol/?originalSubdomain=co"
@@ -37,7 +37,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="text-white hover:text-orange-600"
             >
-              <Linkedin size={16} />
+              <Linkedin size={20} />
             </a>
             <a
               href="https://www.instagram.com/tesocol.co/?hl=es"
@@ -45,7 +45,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="text-white hover:text-orange-600"
             >
-              <Instagram size={16} />
+              <Instagram size={20} />
             </a>
           </div>
         </div>

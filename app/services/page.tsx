@@ -160,7 +160,7 @@ export default function ServicesPage() {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="\pasoancho1.jpg"
                 alt="Instalación comercial"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
@@ -212,20 +212,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-orange-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">¿Listo para dar el paso hacia la energía solar?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contáctanos hoy mismo para una consulta gratuita y descubre cómo nuestros servicios pueden beneficiarte.
-          </p>
-          <Link href="/contact">
-            <Button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-6 h-auto text-lg">
-              Solicitar información
-            </Button>
-          </Link>
-        </div>
-      </section>
+      
 
       <Footer />
     </div>
